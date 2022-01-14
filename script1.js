@@ -41,6 +41,7 @@ const displayUI = function (acc) {
 formData.addEventListener("submit", function (event) {
   event.preventDefault();
   const name = inputName.value;
+  alert(name);
 
   const ob = {
     name: name,
